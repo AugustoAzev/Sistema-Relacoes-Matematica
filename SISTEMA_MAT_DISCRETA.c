@@ -73,7 +73,7 @@ int r_total(int n_elem, int **mat){
 }
 
 int r_sobrejetora(int n_elem, int **mat){
-	int i, j, ColunaNula = 0;
+	int i, j, ColunaNula = 0; 
 	
 	for (j = 0; j < n_elem; j++) {   
 		ColunaNula = 1;
@@ -197,20 +197,7 @@ int main() {
                     }
                     printf("}");
                     printf("\n\n");
-                }   
-                /*
-                // Gerando os pares ordenados e armazenando na matriz        
-                for (i = 0; i < n_conj; i++) {
-                    printf("R: %c = ",i+65);
-                    
-                    for (j = 0; j < n_elem; j++) {
-                        if(i != j){
-                            printf("{%d, %d} ", conjuntos[i][j], i + 1);
-                        }
-                    }
-                    printf("\n");
                 }
-                */
                 
                 int Funcional = 0, Injetora = 0, Total = 0, Sobrejetora = 0;
                 
